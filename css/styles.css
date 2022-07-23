@@ -181,7 +181,9 @@ body {
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-color);    
+    color: var(--title-color);
+    font-size: 14px;
+    margin-bottom: 10px;    
 }
 .benefit-description{
     font-size: 14px;
@@ -196,6 +198,10 @@ body {
 }
 .benefit-item:not(:last-child){
     margin-right: 30px;
+}
+.benefit-section{
+    padding-bottom: 0;
+
 }
 
 /*========================/BENEFITS========================*/
